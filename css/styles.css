@@ -1,0 +1,165 @@
+/* Import "EB Garamond" from Google Fonts */
+@import url('https://fonts.google.com/specimen/Figtree');
+
+/*-----CSS RESET: -Universal selector to reset default browser styles-----*/
+* {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+/*-----declaring the root pseudo-class to use global color variables  styles to use them across the html doc-----*/
+:root {
+  --color-green: hsl(75, 94%, 57%); /*Primary*/
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray: hsl(0, 0%, 20%);
+  --color-dark-gray: hsl(0, 0%, 12%);
+  --color-of-black: hsl(0, 0%, 8%);
+}
+
+/* Decorative styles */ /* Query for mobiles */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 100vh; /* This ensures that the body takes the full viewport height */
+  background-color: var(--color-of-black);
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  justify-content: center; /* This centers the children of .mainContainer vertically along the main axis */
+  align-items: center; /* This centers the children of .mainContainer horizontally along the cross axis */
+  display: flex;
+  flex-direction: column;
+  height: 95vh; /* This ensures that the body takes the full viewport height.The only way to centered vertically is to use this on main */
+  /* background-color:red; */
+}
+
+.articleContainer {
+  width: 400px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1.5rem;
+  background-color: var(--color-dark-gray);
+  /* background-color:blue */
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url(../assets/images/avatar-jessica.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  transition-duration: 2000ms;
+  transition-timing-function: ease;
+}
+
+.photo:hover {
+  transform: scale(1.2); /* Scale up the photo by 10% on hover */
+  cursor: url(../assets/images/hand-pointer-solid.svg), pointer;
+  border: 2px solid greenyellow;
+}
+
+.buttonContainer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: aqua; */
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-white);
+  border-radius: 8px;
+  background-color: var(--color-gray);
+  transition-duration: 2000ms;
+  transition-timing-function: ease;
+}
+
+.button:hover {
+  background-color: var(--color-green);
+  cursor: url(../assets/images/hand-pointer-solid.svg), pointer;
+}
+
+.button:hover::before {
+  content: ; /* Only show this content when hovering */
+  margin-right: 8px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 1rem;
+  color: var(--color-white);
+  transition-duration: 3000ms;
+  transition-timing-function: ease;
+}
+
+h1:hover {
+  color: var(--color-green);
+  cursor: url(../assets/images/hand-pointer-solid.svg), pointer;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  color: var(--color-green);
+  margin-bottom: 2rem;
+}
+h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  font-size: 16px;
+  color: var(--color-white);
+  margin-bottom: 2rem;
+}
+
+.datePublished {
+  font-family: Figtree;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: hsl(220, 15%, 55%);
+  margin-bottom: 1rem;
+}
+
+.author {
+  display: flex;
+  align-items: last center;
+}
+
+footer {
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
