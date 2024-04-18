@@ -98,6 +98,7 @@ main {
 .button:hover {
   background-color: var(--color-green);
   cursor: url(../assets/images/hand-pointer-solid.svg), pointer;
+  color: var(--color-of-black);
 }
 
 .button:hover::before {
