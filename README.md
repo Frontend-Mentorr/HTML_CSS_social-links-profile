@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,8 +25,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://github.com/Frontend-Mentorr/HTML_CSS_social-links-profile)
-- Live Site URL: (https://frontend-mentorr.github.io/HTML_CSS_social-links-profile/)
+- Solution URL: (https://github.com/Junbol-Frontend-Mentor/HTML_CSS_social-links-profile)
+- Live Site URL: (https://junbol-frontend-mentor.github.io/HTML_CSS_social-links-profile/)
 
 ## My process
 
