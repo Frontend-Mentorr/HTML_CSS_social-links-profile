@@ -32,10 +32,12 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+-Semantic HTML5 markup
+-CSS custom properties
+-Flexbox
+-Mobile-first workflow
+-GIT/GitHub
+-PowerShell Command line
 
 ### What I learned
 
